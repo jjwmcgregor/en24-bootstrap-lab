@@ -17,13 +17,16 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- =========== NAVBAR SECTION =========== -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- ---------- logo ---------- -->
     <a class="navbar-brand" href="#"><i class="fab fa-hotjar"></i></a>
+    <!-- ---------- toggle button ---------- -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- ---------- collapsible list ---------- -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -44,6 +47,7 @@
           </div>
         </li>
       </ul>
+      <!-- ---------- search bar ---------- -->
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -52,7 +56,7 @@
   </nav>
 
 
-  <!-- Jumbotron -->
+  <!-- =========== JUMBOTRON SECTION =========== -->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Fluid jumbotron</h1>
@@ -60,24 +64,30 @@
     </div>
   </div>
 
-  <!-- Article -->
+  <!-- =========== ARTICLE SECTION =========== -->
   <main class="container">
     <div class="row">
+      <!-- ---------- main article on the left ---------- -->
       <div class="col-sm-8">
         <h2 class="display-4">Main Article</h2>
+        <!-- ---------- new row to structure inner content ---------- -->
         <div class="row">
+          <!-- ---------- image ---------- -->
           <div class="col-sm-3">
             <img src="http://fillmurray.com/150/150" alt="">
           </div>
+          <!-- ---------- content ---------- -->
           <div class="col-sm-9">
             <h3>Sub Header</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
+        <!-- ---------- author and date ---------- -->
         <div class="text-right">
           <small class="text-right">- Jack McGregor, 9th Jan 2019</small>
         </div>
       </div>
+      <!-- ---------- recent articles on the right (hidden on small) ---------- -->
       <div class="col-sm-4 d-none d-sm-block">
         <div class="list-group">
           <div href="#" class="list-group-item list-group-item-action">
@@ -112,10 +122,12 @@
   </main>
 
 
-  <!-- Carousel -->
+  <!-- =========== CAROUSEL SECTION =========== -->
   <div class="container py-5">
+    <!-- ---------- carousel taken straight as is from documentation: only images are changed and whole thing wrapped in a container ---------- -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
+        <!-- ---------- generic placeholder URLs taken from Google images ---------- -->
         <div class="carousel-item active">
           <img src="https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png" class="d-block w-100" alt="...">
         </div>
@@ -138,10 +150,12 @@
   </div>
 
 
-  <!-- Footer -->
-  <div class="jumbotron jumbotron-fluid text-center">
+  <!-- =========== FOOTER SECTION =========== -->
+  <footer class="jumbotron jumbotron-fluid text-center">
+    <!-- ---------- remember a footer element acts the same as a div but is easier to tell what it's purpose is ---------- -->
     <div class="container">
       <div class="row">
+        <!-- ---------- social icons in a nav ---------- -->
         <div class="col-md-8">
           <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -155,6 +169,7 @@
             </li>
           </ul>
         </div>
+        <!-- ---------- list group ---------- -->
         <div class="col-md-4">
           <ul class="list-group">
             <li class="list-group-item">Cras justo odio</li>
@@ -166,7 +181,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 
 
 </body>
